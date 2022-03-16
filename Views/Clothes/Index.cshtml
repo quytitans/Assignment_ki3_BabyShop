@@ -1,0 +1,31 @@
+﻿@model IEnumerable<AssignmentWCD_BabyFashionShop.Models.Clothes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="row">
+                <img src="@item.Thumnail" alt="Alternate Text" width=100% />
+                <h3>@item.Name</h3>
+                <button class="btn-default">Add to cart</button>
+            </div>
+        </div>
+    }
+</div>
+@section header
+{
+    <style ></style>
+}
+@section scripts
+{
+    <script src="~/Scripts/ClothesIndex.js"></script>
+}
