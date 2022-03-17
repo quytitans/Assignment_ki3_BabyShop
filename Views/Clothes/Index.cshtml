@@ -7,9 +7,22 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Clothes")
 </p>
-<div class="container">
+@using (Ajax.BeginForm("SearchByName", "Clothes",
+new AjaxOptions
+{
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "GET",
+    OnFailure = "searchFailed",
+    LoadingElementId = "ajax-loader",
+    UpdateTargetId = "result",
+}, new { @id = "roleForm" }))
+{
+    <input type="text" name="keyWord" value="" />
+    <button class="btn-default" type="submit">Search</button>
+}
+<div class="container" id="result">
     @foreach (var item in Model)
     {
         <div class="col-md-4">
@@ -23,9 +36,9 @@
 </div>
 @section header
 {
-    <style ></style>
+    @*<link href="~/Content/ClothesIndex.css" rel="stylesheet" />*@
 }
 @section scripts
 {
-    <script src="~/Scripts/ClothesIndex.js"></script>
+    @*<script src="~/Scripts/ClothesIndex.js"></script>*@
 }
