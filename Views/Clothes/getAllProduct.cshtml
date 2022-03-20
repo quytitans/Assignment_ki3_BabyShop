@@ -1,0 +1,46 @@
+﻿@model IEnumerable<AssignmentWCD_BabyFashionShop.Models.Clothes>
+@{
+    ViewBag.Title = "getAllProduct";
+    Layout = "~/Views/Shared/CustomLayout.cshtml";
+}
+<div class="row">
+    @using (Ajax.BeginForm("SearchByName", "Clothes",
+        new AjaxOptions
+        {
+            InsertionMode = InsertionMode.Replace,
+            HttpMethod = "GET",
+            OnFailure = "searchFailed",
+            LoadingElementId = "ajax-loader",
+            UpdateTargetId = "result11",
+        }, new { @id = "roleForm" }))
+    {
+        <div class="col-sm-5">
+            <input placeholder="enter keyword here" type="text" name="keyWord" value="" class="form-control" />
+        </div>
+        <div class="col-sm-3">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+    }
+</div>
+<div class="row" id="result11">
+    <ul class="product-list grid-products equal-container">
+        @foreach (var item in Model)
+        {
+            <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 ">
+                <div class="product product-style-3 equal-elem ">
+                    <div class="product-thumnail">
+                        <a href="detail.html" title="@item.Name">
+                            <figure><img src="@item.Thumnail" alt="@item.Name"></figure>
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="#" class="product-name"><span>@item.Name</span></a>
+                        <div class="wrap-price"><span class="product-price">VNĐ @item.Price</span></div>
+                        @Html.ActionLink("Add To Cart", "Add", "MyCart", new { ProductIDInput = item.Id }, new {@class = "btn add-to-cart" })
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
+

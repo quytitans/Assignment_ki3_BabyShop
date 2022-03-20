@@ -93,13 +93,10 @@ D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\bin\System.Web.WebPages
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\bin\Newtonsoft.Json.xml
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\bin\Antlr3.Runtime.pdb
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.AssemblyReference.cache
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.CoreCompileInputs.cache
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.CopyComplete
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.dll
 D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.pdb
-D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.Migrations.FistTim.resources
-D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.GenerateResource.cache
 F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\bin\AssignmentWCD_BabyFashionShop.dll.config
 F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\bin\AssignmentWCD_BabyFashionShop.dll
 F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\bin\AssignmentWCD_BabyFashionShop.pdb
@@ -202,3 +199,6 @@ F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\obj\Debug\AssignmentWCD_BabyFas
 F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.CopyComplete
 F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\obj\Debug\AssignmentWCD_BabyFashionShop.dll
 F:\02. ASP NET FrameWork\Assignment_ki3_BabyShop\obj\Debug\AssignmentWCD_BabyFashionShop.pdb
+D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.AssemblyReference.cache
+D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.Migrations.Hehe.resources
+D:\07. ASP NET MVC Project\AssignmentWCD_BabyFashionShop\obj\Debug\AssignmentWCD_BabyFashionShop.csproj.GenerateResource.cache

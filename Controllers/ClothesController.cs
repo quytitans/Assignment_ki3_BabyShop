@@ -23,5 +23,16 @@ namespace AssignmentWCD_BabyFashionShop.Controllers
             var clothes1 = productDBcontext.Clothes.Where(s => s.Name.Contains(keyWord));
             return PartialView("SearchByNamePatialView", clothes1);
         }
+
+        public ActionResult TestView()
+        {
+            return View();
+        }
+
+        public ActionResult getAllProduct()
+        {
+            var clothesList = productDBcontext.Clothes.ToList();
+            return View(clothesList);
+        }
     }
 }
